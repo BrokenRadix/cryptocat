@@ -1,0 +1,60 @@
+div#bubble {
+	max-width: 716px;	
+	padding: 0px 0px 5px;
+	min-height: 425px;
+}
+div#bubble #loginForm #conversationName {
+	max-width: 90%;
+}
+div#bubble #loginForm #nickname {
+	margin: 0 auto;
+	max-width: 90%;
+	display: inherit;	
+}
+div#bubble #loginSubmit {
+	margin: 10px auto 0px;
+	display: inherit;
+}
+div#bubble #loginForm {
+    	margin: 20px auto 0px;
+}
+div#dialogBox {
+	margin: 0 auto;
+	left: auto;
+	right: 5%;
+	left: 5%;
+}
+div#bubble div#info {
+	max-width: 90%;
+}
+div#bubble #info li {
+	min-height: 40px;
+}
+div#dialogBox {
+	max-width: 300px;
+	top: 25%;
+	margin: 0px auto;
+}
+p#progressForm img {
+	margin: 0px auto;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+div#bubble img.logo {
+	height: 34px;
+}
+div#bubble .button {
+	height: 16px;
+}
+#userInputText {
+	max-height: 35px;
+	width: 75%;
+}
+img.typing {
+	height: 29px;
+}
+#progressBar {
+        margin-top: 10px;
+        height: 18px;
+}
