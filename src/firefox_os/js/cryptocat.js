@@ -1033,7 +1033,7 @@ $('#languageSelect').click(function() {
 	$('#customServerDialog').hide()
 	$('#languages li').css({'color': '#FFF', 'font-weight': 'normal'})
 	$('#' + Cryptocat.locale['language']).css({'color': '#97CEEC', 'font-weight': 'bold'})
-	$('#footer').animate({'height': 180}, function() {
+	$('#footer').animate({'height': 'swing'}, function() {
 		$('#languages').fadeIn()
 	})
 	$('#languages li').click(function() {

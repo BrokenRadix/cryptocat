@@ -16,7 +16,7 @@ div#bubble #loginSubmit {
 	display: inherit;
 }
 div#bubble #loginForm {
-    	margin: 20px auto 0px;
+	margin: 20px auto 0px;
 }
 div#dialogBox {
 	margin: 0 auto;
@@ -55,6 +55,9 @@ img.typing {
 	height: 29px;
 }
 #progressBar {
-        margin-top: 10px;
-        height: 18px;
+	margin-top: 10px;
+    height: 18px;
+}
+div#footer #languages {
+	-moz-column-count: 2;
 }

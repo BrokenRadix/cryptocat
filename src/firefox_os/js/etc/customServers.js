@@ -33,7 +33,7 @@ $('#customServer').click(function() {
 		)
 	}
 	$('#languages').hide()
-	$('#footer').animate({'height': 220}, function() {
+	$('#footer').animate({'height': 'swing'}, function() {
 		$('#customServerDialog').fadeIn()
 		$('#customName').val(Cryptocat.serverName)
 		$('#customDomain').val(Cryptocat.xmpp.domain)
