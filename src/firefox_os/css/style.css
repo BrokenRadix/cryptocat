@@ -95,8 +95,10 @@ div#bubble {
 	border-radius: 15px 0 15px 15px;
 	box-shadow: 5px 5px #76BDE5;
 	border: 10px solid #151520;
-	padding: 0 0 50px 0;
 	display: none;
+	max-width: 716px;	
+	padding: 0px 0px 5px;
+	min-height: 425px;
 }
 
 div#bubble div#header {
@@ -110,9 +112,9 @@ div#bubble img.logo {
 	display: inline;
 	padding: 1px 0 0 0;
 	float: left;
-	height: auto;
 	margin: -5px 5px 0 5px;
 	direction: ltr;
+	height: 34px;
 }
 
 div#bubble #logoText {
@@ -142,17 +144,18 @@ div#bubble #optionButtons {
 div#bubble .button {
 	margin: 7px 0 0 3px;
 	width: auto;
-	height: auto;
+	height: 16px;
 }
 
 div#bubble #loginForm {
-	margin: 90px auto 0 auto;
+	margin: 20px auto 0px;
 }
 
 div#bubble #loginForm #conversationName {
 	border-radius: 4px 0 0 0;
 	width: auto;
 	font-size: 2.8em;
+	max-width: 90%;
 }
 
 div#bubble #loginForm [type=text] {
@@ -168,13 +171,13 @@ div#bubble #loginForm [type=text] {
 div#bubble #loginForm #nickname {
 	width: auto;
 	font-size: 2em;
-	margin: 0 0 0 151px;
-	display: inline;
+	margin: 0 auto;
+	max-width: 90%;
+	display: inherit;	
 }
 
 div#bubble #loginSubmit {
 	width: auto;
-	display: inline;
 	height: auto;
 	margin-left: 10px;
 	position: relative;
@@ -182,7 +185,8 @@ div#bubble #loginSubmit {
 	font-size: 1.6em;
 	border: 1px solid #76BDE5;
 	box-shadow: 2px 2px #76BDE5;
-
+	margin: 10px auto 0px;
+	display: inherit;
 }
 
 div#bubble #loginSubmit:hover {
@@ -215,6 +219,7 @@ div#bubble div#info {
 	font-size: 1.1em;
 	line-height: 1.5em;
 	font-family: Verdana, Arial, Helvetica;
+	max-width: 90%;
 }
 
 div#bubble #info #introParagraph {
@@ -228,6 +233,7 @@ div#bubble #info li {
 	height: auto;
 	padding: 0 40px;
 	margin: 20px 0 0 -30px;
+	min-height: 40px;
 }
 
 div#bubble #info li.key {
@@ -346,9 +352,9 @@ div#footer #languageSelect {
 }
 
 div#footer #languages {
-	-webkit-column-count: 7;
-	-moz-column-count: 7;
-	column-count: 7;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
 	display: none;
 	margin: 30px auto;
 	position: relative;
@@ -522,18 +528,20 @@ DIALOG BOX
 	height: auto;
 	border: 1px solid #97CEEC;
 	border-radius: 8px 0 8px 8px;
-	margin: 120px auto 0 -235px;
-	left: 50%;
 	z-index: 4;
 	font-size: 1.1em;
 	border-right: none;
 	border-bottom: none;
 	background: #FCFCFC;
 	box-shadow: 5px 5px #97CEEC;
-	top: -20px;
 	display: none;
 	color: #151520;
 	font-family: 'Monda';
+	right: 5%;
+	left: 5%;
+	max-width: 300px;
+	top: 25%;
+	margin: 0px auto;
 }
 
 #dialogBox [type=text], #dialogBox [type=password], #dialogBox [type=submit] {
@@ -571,8 +579,8 @@ DIALOG BOX
 
 #displayInfo {
 	font-size: 1.1em;
-	padding: 10px 20px;
 	height: auto;
+	padding: 3% 3%;
 }
 
 #authInfo {
@@ -658,8 +666,11 @@ DIALOG BOX
 
 #progressForm img {
 	float: left;
-	margin: 8px 20px 0 0;
 	box-shadow: 2px 2px #97CEEC;
+	margin: 0px auto;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
 }
 
 #progressInfo {
@@ -680,10 +691,11 @@ DIALOG BOX
 
 #progressBar {
 	margin-top: 10px;
-	height: auto;
 	width: auto;
 	border: 1px solid #97CEEC;
 	padding: 1px;
+	margin-top: 10px;
+    height: 18px;
 }
 
 #progressBar #fill {
@@ -942,7 +954,6 @@ CONVERSATION WINDOW
 	border-radius: 7px 0 0 7px;
 	padding: 8px 10px;
 	height: auto;
-	width: auto;
 	margin: 10px 0 7px 0;
 	display: inline;
 	box-shadow: none;
@@ -952,6 +963,8 @@ CONVERSATION WINDOW
 	resize: none;
 	overflow: hidden;
 	border: 1px solid #353535;
+	max-height: 35px;
+	width: 75%;
 }
 
 #userInputSend {
@@ -1018,8 +1031,14 @@ CONVERSATION WINDOW
 
 img.typing {
 	width: auto;
-	height: auto;
 	vertical-align: -3px;
+	height: 29px;
+}
+
+div#utip {
+	left: 2%;
+	right: 2%;
+	margin: 0 auto;
 }
 
 /*
