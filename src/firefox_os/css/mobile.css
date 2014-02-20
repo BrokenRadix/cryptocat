@@ -61,3 +61,11 @@ img.typing {
 div#footer #languages {
 	-moz-column-count: 2;
 }
+div#utip {
+	left: 2%;
+	right: 2%;
+	margin: 0 auto;
+}
+#displayInfo {
+    padding: 3% 3%;
+}
