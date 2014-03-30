@@ -14,6 +14,15 @@ firefox:
 	@rm -r src/firefox/chrome/content/data/
 	@/bin/echo "[Cryptocat] Firefox build available in release/"
 
+firefoxos:
+	@mkdir -p release
+	@rm -rf release/cryptocat.firefox_os/
+	@mkdir release/cryptocat.firefox_os/
+	@cp -R src/core/* release/cryptocat.firefox_os/
+	@cp -Rf src/firefox_os/* release/cryptocat.firefox_os/
+	@rm release/cryptocat.firefox_os/manifest.json
+	@/bin/echo "[Cryptocat] Firefox OS build available in release/"
+
 safari:
 	@rm -rf src/cryptocat.safariextension
 	@mkdir src/cryptocat.safariextension
